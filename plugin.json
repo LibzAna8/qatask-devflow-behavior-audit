@@ -1,0 +1,10 @@
+{
+  "name": "devflow-behavior-audit",
+  "description": "QA behavior coverage analysis for React+TypeScript — surfaces every behavior a component promises and which promises have no test guard",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["qa", "testing", "react", "typescript", "behavior-coverage"],
+  "commands": ["behavior-audit"],
+  "agents": ["behavior-extractor", "coverage-mapper", "gap-synthesizer"],
+  "skills": ["react-behavior-patterns", "test-quality-patterns"]
+}
